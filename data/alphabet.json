@@ -1,0 +1,41 @@
+{
+    "categories": [
+      { "name": "Звичайні букви", "numberOfPage": 1 },
+      { "name": "Особливі букви", "numberOfPage": 1 }
+    ],
+   "normal_letters": [
+      { "word": "A a", "transcription": "[а]", "translation": "[a:], [a]" },
+      { "word": "B b", "transcription": "[бе]", "translation": "[b]" },
+      { "word": "C c", "transcription": "[це]", "translation": "[ts]" },
+      { "word": "D d", "transcription": "[де]", "translation": "[d]" },
+      { "word": "E e", "transcription": "[е]", "translation": "[e:], [ε]" },
+      { "word": "F f", "transcription": "[еф]", "translation": "[f]" },
+      { "word": "G g", "transcription": "[ґе]", "translation": "[g]" },
+      { "word": "H h", "transcription": "[ха]", "translation": "[h] (на початку); ∅ (між голосними)" },
+      { "word": "I i", "transcription": "[і]", "translation": "[i:], [ɪ]" },
+      { "word": "J j", "transcription": "[йот]", "translation": "[j]" },
+      { "word": "K k", "transcription": "[ка]", "translation": "[k]" },
+      { "word": "L l", "transcription": "[ел´]", "translation": "[l]" },
+      { "word": "M m", "transcription": "[ем]", "translation": "[m]" },
+      { "word": "N n", "transcription": "[ен]", "translation": "[n]" },
+      { "word": "O o", "transcription": "[о]", "translation": "[o:], [ɔ]" },
+      { "word": "P p", "transcription": "[пе]", "translation": "[p]" },
+      { "word": "Q q", "transcription": "[ку]", "translation": "[kv] (qu)" },
+      { "word": "R r", "transcription": "[ер]", "translation": "[r], [ɐ]" },
+      { "word": "S s", "transcription": "[ес]", "translation": "[z]; [s] (ss)" },
+      { "word": "T t", "transcription": "[те]", "translation": "[t]" },
+      { "word": "U u", "transcription": "[у]", "translation": "[u:], [ʋ]" },
+      { "word": "V v", "transcription": "[фау]", "translation": "[f], [v]" },
+      { "word": "W w", "transcription": "[ве]", "translation": "[v]" },
+      { "word": "X x", "transcription": "[ікс]", "translation": "[ks]" },
+      { "word": "Y y", "transcription": "[іпсилон]", "translation": "[y:], [y]" },
+      { "word": "Z z", "transcription": "[цет]", "translation": "[ts]" }
+    ],
+    "special_letters": [
+      { "word": "Ä ä", "transcription": "['а `ум'лаут]", "translation": "[ε:] або [ε]" },
+      { "word": "Ö ö", "transcription": "['о `ум'лаут]", "translation": "[ø:] або [œ]" },
+      { "word": "Ü ü", "transcription": "['у `ум'лаут]", "translation": "[y:] або [y]" },
+      { "word": "ß", "transcription": "['есцет]", "translation": "[s] (як ss)" }
+    ]
+  }
+  

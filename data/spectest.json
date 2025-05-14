@@ -1,0 +1,59 @@
+{
+    "theme": "Алфавіт та правила читання",
+    "tests": [
+            {
+                "question": "Прослухай це слово. Чи є в ньому t? Вибери правильну відповідь.",
+                "audio_data": "1/1_t_true.mp3",
+                "correct_answer": true,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому t? Вибери правильну відповідь.",
+                "audio_data": "1/2_t_false.mp3",
+                "correct_answer": false,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому t? Вибери правильну відповідь.",
+                "audio_data": "1/3_t_true.mp3",
+                "correct_answer": true,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому ü? Вибери правильну відповідь.",
+                "audio_data": "2/1_u_true.mp3",
+                "correct_answer": true,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому ü? Вибери правильну відповідь.",
+                "audio_data": "2/2_u_true.mp3",
+                "correct_answer": true,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому ü? Вибери правильну відповідь.",
+                "audio_data": "2/3_u_false.mp3",
+                "correct_answer": false,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому pf? Вибери правильну відповідь.",
+                "audio_data": "3/1_pf_false.mp3",
+                "correct_answer": false,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому pf? Вибери правильну відповідь.",
+                "audio_data": "3/2_pf_true.mp3",
+                "correct_answer": true,
+                "type": 3
+            },
+            {
+                "question": "Прослухай це слово. Чи є в ньому pf? Вибери правильну відповідь.",
+                "audio_data": "3/3_pf_false.mp3",
+                "correct_answer": false,
+                "type": 3
+            }
+    ]
+}

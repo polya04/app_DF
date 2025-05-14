@@ -1,0 +1,1905 @@
+{
+  "categories":[
+    {"name":"Алфавіт та правила читання", "page":1},
+    {"name":"Загальні правила наголосу в німецькій мові", "page":1},
+    {"name":"Інтонація в німецькій мові", "page":1},
+
+    {"name":"Привітання та прощання", "page":2},
+    {"name":"Числа", "page":2},
+    {"name":"Дні тижня", "page":2},
+    {"name":"Пори року та місяці", "page":2},
+    {"name":"Сім'я", "page":2},
+    {"name":"Професії", "page":2},
+    {"name":"Кольори", "page":2},
+    {"name":"Їжа", "page":2},
+    {"name":"Тварини", "page":2},
+    {"name":"Будинок", "page":2},
+    {"name":"Дієслова", "page":2},
+
+    {"name":"Іменники та означені артиклі (Der, Die, Das)", "page":3},
+    {"name":"Множина іменників", "page":3},
+    {"name":"Неозначений артикль: ein / eine", "page":3},
+    {"name":"Особові займенники er / sie / es", "page":3},
+    {"name":"Відмінювання дієслів", "page":3}
+  ],
+  "body":[
+    {
+        "theme": "Загальні правила наголосу в німецькій мові",
+        "tests": [
+            {
+                "question": "На який склад зазвичай падає наголос у споконвічних німецьких словах?",
+                "answers": [
+                    "На останній склад",
+                    "На перший склад",
+                    "На передостанній склад",
+                    "На суфікс"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Яке з наведених слів є прикладом споконвічного німецького слова з наголосом на першому складі?",
+                "answers": [
+                    "Hotel",
+                    "bekommen",
+                    "Vater",
+                    "anrufen"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "У якому з випадків наголос у слові падає на префікс?",
+                "answers": [
+                    "Якщо префікс невідокремлюваний",
+                    "Якщо префікс відокремлюваний",
+                    "Якщо слово запозичене",
+                    "Якщо слово є складним"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Яке з наведених слів має відокремлюваний префікс із наголосом на ньому?",
+                "answers": [
+                    "verstehen",
+                    "bekommen",
+                    "anrufen",
+                    "empfangen"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Який із перелічених префіксів є невідокремлюваним?",
+                "answers": [
+                    "auf-",
+                    "be-",
+                    "mit-",
+                    "ein-"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Який наголос мають запозичені слова з французької, латини або грецької мов?",
+                "answers": [
+                    "Завжди на першому складі",
+                    "На середньому складі",
+                    "На останньому або передостанньому складі",
+                    "На префіксі"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "У якому з наведених слів наголос не на першому складі, бо це запозичення?",
+                "answers": [
+                    "Mutter",
+                    "verstehen",
+                    "Hotel",
+                    "Speisekarte"
+                ],
+                "correct": 2,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Інтонація в німецькій мові",
+        "tests": [
+            {
+                "question": "Що таке інтонація в німецькій мові?",
+                "answers": [
+                    "Спосіб наголошування слів",
+                    "Зміна висоти голосу в межах речення",
+                    "Вживання складних конструкцій",
+                    "Розділові знаки"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Яка інтонація притаманна розповідному реченню в німецькій мові?",
+                "answers": [
+                    "Підвищення тону в кінці",
+                    "Підвищення тону на початку",
+                    "Падаюча інтонація в кінці",
+                    "Без змін інтонації"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "У якому з наведених речень, згідно з правилами, буде підвищення тону в кінці?",
+                "answers": [
+                    "Ich wohne in Berlin.",
+                    "Das ist nicht wahr?",
+                    "Ich bin Student.",
+                    "Ich heiße Anna."
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Підвищення тону в кінці речення у німецькій мові зазвичай вказує на:",
+                "answers": [
+                    "Завершення думки",
+                    "Підкреслення логічного наголосу",
+                    "Незавершеність думки або питання",
+                    "Початок нового речення"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Яке речення є питальним за інтонацією?",
+                "answers": [
+                    "Ich gehe zur Schule.",
+                    "Er hat einen Bruder.",
+                    "Hast du Zeit?",
+                    "Ich wohne in der Stadt."
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Яка роль інтонації в усному мовленні німецькою?",
+                "answers": [
+                    "Допомагає ставити правильні артиклі",
+                    "Визначає граматичний рід слова",
+                    "Впливає на розуміння змісту,емоції,логіку речення",
+                    "Нічого не змінює"
+                ],
+                "correct": 2,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Привітання та прощання",
+        "tests": [
+            {
+                "question": "Обери правильний переклад фрази 'Guten Morgen!'",
+                "answers": [
+                    "До побачення",
+                    "Привіт",
+                    "Доброго ранку",
+                    "Надобраніч"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Як перекладається фраза 'Ich komme aus der Ukraine'?",
+                "answers": [
+                    "Я живу в Україні",
+                    "Я з України",
+                    "Україна — моя країна",
+                    "Я люблю Україну"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає 'Wie alt bist du?'",
+                "answers": [
+                    "Як справи?",
+                    "Де ти живеш?",
+                    "Скільки тобі років?"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «Привіт»?",
+                "answers": [
+                    "Guten Morgen",
+                    "Hallo",
+                    "Danke",
+                    "Bitte"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає фраза Ich habe Hunger?",
+                "answers": [
+                    "Я сумую",
+                    "Я втомлений",
+                    "Я голодний",
+                    "Мені нудно"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Що означає Entschuldigung?",
+                "answers": [
+                    "Дякую",
+                    "Будь ласка",
+                    "Вибачте",
+                    "До зустрічі"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Що означає Es tut mir leid?",
+                "answers": [
+                    "Мені байдуже",
+                    "Мені прикро",
+                    "Я щасливий",
+                    "Мені холодно"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «Я [ім’я]»?",
+                "answers": [
+                    "Ich bin [Name]",
+                    "Ich heiße [Name]",
+                    "Ich habe Hunger",
+                    "Ich wohne [Name]"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Що означає Danke!?",
+                "answers": [
+                    "Будь ласка!",
+                    "До побачення!",
+                    "Вибачте!",
+                    "Дякую!"
+                ],
+                "correct": 3,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Числа",
+        "tests": [
+            {
+                "question": "Як німецькою буде число «дванадцять»?",
+                "answers": [
+                    "zehn",
+                    "elf",
+                    "zwölf",
+                    "sechzehn"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Що означає число dreißig?",
+                "answers": [
+                    "13",
+                    "33",
+                    "3",
+                    "30"
+                ],
+                "correct": 3,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде число «сорок п’ять»?",
+                "answers": [
+                    "vierundfünfzig",
+                    "fünfundvierzig",
+                    "vierzigfünf",
+                    "fünfvierzig"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає число achtzehn?",
+                "answers": [
+                    "80",
+                    "18",
+                    "8",
+                    "28"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «дев'яносто»?",
+                "answers": [
+                    "neunzig",
+                    "neunundneunzig",
+                    "neunundachtzig",
+                    "siebzig"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Яке число німецькою буде sechzehn?",
+                "answers": [
+                    "6",
+                    "60",
+                    "16",
+                    "66"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде число «тридцять сім»?",
+                "answers": [
+                    "siebenunddreißig",
+                    "dreizehnundsechs",
+                    "dreißigundsieben",
+                    "dreiundsechzig"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Що означає число zweiundvierzig?",
+                "answers": [
+                    "24",
+                    "42",
+                    "32",
+                    "52"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає neunundachtzig?",
+                "answers": [
+                    "98",
+                    "89",
+                    "90",
+                    "88"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде число «п’ятдесят два»?",
+                "answers": [
+                    "fünfundzwanzig",
+                    "zweiundfünfzig",
+                    "fünfunddreißig",
+                    "zweiundvierzig"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає vierzehn?",
+                "answers": [
+                    "14",
+                    "40",
+                    "4",
+                    "24"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде число «шістдесят вісім»?",
+                "answers": [
+                    "sechzehnacht",
+                    "achtundsechzig",
+                    "achtsechzig",
+                    "sechzigacht"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає fünfundneunzig?",
+                "answers": [
+                    "59",
+                    "95",
+                    "85",
+                    "75"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде число «одинадцять»?",
+                "answers": [
+                    "elf",
+                    "zwölf",
+                    "zehn",
+                    "sieben"
+                ],
+                "correct": 0,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Дні тижня",
+        "tests": [
+            {
+                "question": "Як німецькою буде «понеділок»?",
+                "answers": [
+                    "der Dienstag",
+                    "der Mittwoch",
+                    "der Montag",
+                    "der Donnerstag"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Freitag?",
+                "answers": [
+                    "п’ятниця",
+                    "четвер",
+                    "субота",
+                    "вівторок"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «неділя»?",
+                "answers": [
+                    "der Samstag",
+                    "der Sonntag",
+                    "die Woche",
+                    "das Wochenende"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Mittwoch?",
+                "answers": [
+                    "понеділок",
+                    "п’ятниця",
+                    "середа",
+                    "вівторок"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «вівторок»?",
+                "answers": [
+                    "der Donnerstag",
+                    "der Dienstag",
+                    "der Samstag",
+                    "der Montag"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Donnerstag?",
+                "answers": [
+                    "четвер",
+                    "субота",
+                    "тиждень",
+                    "неділя"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «тиждень»?",
+                "answers": [
+                    "das Wochenende",
+                    "der Mittwoch",
+                    "die Woche",
+                    "der Sonntag"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Що означає das Wochenende?",
+                "answers": [
+                    "п’ятниця",
+                    "вихідні",
+                    "субота",
+                    "неділя"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «субота»?",
+                "answers": [
+                    "der Sonntag",
+                    "der Samstag",
+                    "der Freitag",
+                    "der Dienstag"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Montag?",
+                "answers": [
+                    "п’ятниця",
+                    "понеділок",
+                    "середа",
+                    "неділя"
+                ],
+                "correct": 1,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Пори року та місяці",
+        "tests": [
+            {
+                "question": "Як німецькою буде «зима»?",
+                "answers": [
+                    "der Sommer",
+                    "der Winter",
+                    "der Herbst",
+                    "der Frühling"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Frühling?",
+                "answers": [
+                    "літо",
+                    "осінь",
+                    "весна",
+                    "зима"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «осінь»?",
+                "answers": [
+                    "der April",
+                    "der Herbst",
+                    "der März",
+                    "der Januar"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Sommer?",
+                "answers": [
+                    "осінь",
+                    "весна",
+                    "зима",
+                    "літо"
+                ],
+                "correct": 3,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «рік»?",
+                "answers": [
+                    "die Jahreszeit",
+                    "das Jahr",
+                    "der Monat",
+                    "der Winter"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає die Jahreszeit?",
+                "answers": [
+                    "рік",
+                    "сезон",
+                    "місяць",
+                    "погода"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «місяць»?",
+                "answers": [
+                    "der Monat",
+                    "das Jahr",
+                    "der Winter",
+                    "die Woche"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Що означає die Monate?",
+                "answers": [
+                    "тижні",
+                    "місяці",
+                    "дні",
+                    "роки"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «липень»?",
+                "answers": [
+                    "der Juni",
+                    "der Juli",
+                    "der Mai",
+                    "der August"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Januar?",
+                "answers": [
+                    "березень",
+                    "лютий",
+                    "січень",
+                    "квітень"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «листопад»?",
+                "answers": [
+                    "der Oktober",
+                    "der Dezember",
+                    "der November",
+                    "der September"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "Що означає der März?",
+                "answers": [
+                    "березень",
+                    "лютий",
+                    "травень",
+                    "квітень"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «травень»?",
+                "answers": [
+                    "der Mai",
+                    "der März",
+                    "der Juli",
+                    "der Januar"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "Що означає der Oktober?",
+                "answers": [
+                    "листопад",
+                    "жовтень",
+                    "грудень",
+                    "вересень"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "Як німецькою буде «червень»?",
+                "answers": [
+                    "der Juni",
+                    "der Juli",
+                    "der Mai",
+                    "der März"
+                ],
+                "correct": 0,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Сім'я",
+        "tests": [
+            {
+                "question": "der Vater",
+                "answers": [
+                    "мама",
+                    "дідусь",
+                    "тато",
+                    "брат"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "die Geschwister",
+                "answers": [
+                    "дідусь і бабуся",
+                    "брат і сестра",
+                    "діти",
+                    "тато і мама"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "die Großmutter",
+                "answers": [
+                    "бабуся",
+                    "дідусь",
+                    "сестра",
+                    "тітка"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "der Cousin",
+                "answers": [
+                    "двоюрідна сестра",
+                    "дядько",
+                    "двоюрідний брат",
+                    "брат"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "die Kinder",
+                "answers": [
+                    "дитина",
+                    "діти",
+                    "батьки",
+                    "брати"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "der Opa",
+                "answers": [
+                    "дідусь",
+                    "тато",
+                    "дядько",
+                    "хлопець"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "die Tante",
+                "answers": [
+                    "мама",
+                    "тітка",
+                    "бабуся",
+                    "сестра"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "die Mutter",
+                "answers": [
+                    "тато",
+                    "бабуся",
+                    "мама",
+                    "сестра"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "die Eltern",
+                "answers": [
+                    "діти",
+                    "батьки",
+                    "брати",
+                    "родичі"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "der Bruder",
+                "answers": [
+                    "дядько",
+                    "брат",
+                    "племінник",
+                    "син"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "тато",
+                "answers": [
+                    "der Bruder",
+                    "der Vater",
+                    "der Onkel",
+                    "der Großvater"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "сестра",
+                "answers": [
+                    "die Schwester",
+                    "die Cousine",
+                    "die Tante",
+                    "die Oma"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "двоюрідна сестра",
+                "answers": [
+                    "die Schwester",
+                    "die Mutter",
+                    "die Cousine",
+                    "die Tante"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "діти",
+                "answers": [
+                    "das Kind",
+                    "die Eltern",
+                    "die Kinder",
+                    "die Geschwister"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "брат і сестра",
+                "answers": [
+                    "die Großeltern",
+                    "die Geschwister",
+                    "die Eltern",
+                    "die Kinder"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "дідусь і бабуся",
+                "answers": [
+                    "die Großeltern",
+                    "die Eltern",
+                    "die Geschwister",
+                    "die Cousinen"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "двоюрідний брат",
+                "answers": [
+                    "der Bruder",
+                    "der Cousin",
+                    "der Onkel",
+                    "der Vater"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "дядько",
+                "answers": [
+                    "der Cousin",
+                    "der Opa",
+                    "der Onkel",
+                    "der Bruder"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "дитина",
+                "answers": [
+                    "das Kind",
+                    "die Kinder",
+                    "der Enkel",
+                    "die Tochter"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "бабуся",
+                "answers": [
+                    "die Oma",
+                    "die Cousine",
+                    "die Mutter",
+                    "die Tante"
+                ],
+                "correct": 0,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Професії",
+        "tests": [
+            {
+                "question": "вчителька",
+                "answers": [
+                    "die Köchin",
+                    "die Ärztin",
+                    "die Lehrerin",
+                    "die Schauspielerin"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "архітектор",
+                "answers": [
+                    "der Schauspieler",
+                    "der Architekt",
+                    "der Rentner",
+                    "der Ingenieur"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "домогосподарка",
+                "answers": [
+                    "die Hausfrau",
+                    "die Köchin",
+                    "die Lehrerin",
+                    "die Ärztin"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "акторка",
+                "answers": [
+                    "die Ärztin",
+                    "die Rentnerin",
+                    "die Schauspielerin",
+                    "die Architektin"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "інженерка",
+                "answers": [
+                    "die Architektin",
+                    "die Ingenieurin",
+                    "die Köchin",
+                    "die Lehrerin"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "пенсіонер",
+                "answers": [
+                    "der Hausmann",
+                    "der Arzt",
+                    "der Rentner",
+                    "der Lehrer"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "лікар",
+                "answers": [
+                    "der Koch",
+                    "der Arzt",
+                    "der Schauspieler",
+                    "der Rentner"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "кухарка",
+                "answers": [
+                    "die Köchin",
+                    "die Schauspielerin",
+                    "die Hausfrau",
+                    "die Rentnerin"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "актор",
+                "answers": [
+                    "der Lehrer",
+                    "der Koch",
+                    "der Schauspieler",
+                    "der Ingenieur"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "архітекторка",
+                "answers": [
+                    "die Rentnerin",
+                    "die Architektin",
+                    "die Ärztin",
+                    "die Köchin"
+                ],
+                "correct": 1,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Кольори",
+        "tests": [
+            {
+                "question": "синій",
+                "answers": [
+                    "grün",
+                    "blau",
+                    "braun",
+                    "bunt"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "жовтий",
+                "answers": [
+                    "grau",
+                    "orange",
+                    "gelb",
+                    "lila"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "фіолетовий",
+                "answers": [
+                    "lila",
+                    "rosa",
+                    "weiß",
+                    "grün"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "білий",
+                "answers": [
+                    "schwarz",
+                    "grau",
+                    "weiß",
+                    "hellblau"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "зелений",
+                "answers": [
+                    "braun",
+                    "bunt",
+                    "grün",
+                    "orange"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "рожевий",
+                "answers": [
+                    "rosa",
+                    "lila",
+                    "orange",
+                    "blau"
+                ],
+                "correct": 0,
+                "type": 0
+            },
+            {
+                "question": "чорний",
+                "answers": [
+                    "weiß",
+                    "braun",
+                    "schwarz",
+                    "grau"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "помаранчевий",
+                "answers": [
+                    "gelb",
+                    "bunt",
+                    "orange",
+                    "rosa"
+                ],
+                "correct": 2,
+                "type": 0
+            },
+            {
+                "question": "різнокольоровий",
+                "answers": [
+                    "grau",
+                    "bunt",
+                    "grün",
+                    "rot"
+                ],
+                "correct": 1,
+                "type": 0
+            },
+            {
+                "question": "блакитний",
+                "answers": [
+                    "dunkelblau",
+                    "hellblau",
+                    "blau",
+                    "weiß"
+                ],
+                "correct": 1,
+                "type": 0
+            }
+        ]
+    },
+    {
+        "theme": "Їжа",
+        "tests": [
+          {
+            "question": "Was bedeutet „der Käse“?",
+            "answers": ["м’ясо", "картопля", "сир", "хліб"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „die Nudeln“?",
+            "answers": ["макарони", "ковбаса", "рис", "овочі"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „das Fleisch“?",
+            "answers": ["риба", "м’ясо", "масло", "сир"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „die Butter“?",
+            "answers": ["цукор", "хліб", "масло", "суп"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „der Apfel“?",
+            "answers": ["банан", "яблуко", "груша", "слива"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „das Wasser“?",
+            "answers": ["сік", "чай", "вода", "молоко"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „das Salz“?",
+            "answers": ["цукор", "сіль", "перець", "соус"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „das Obst“?",
+            "answers": ["овочі", "фрукти", "ягоди", "солодощі"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „die Milch“?",
+            "answers": ["молоко", "йогурт", "сік", "вода"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Was bedeutet „der Tee“?",
+            "answers": ["кава", "чай", "молоко", "сік"],
+            "correct": 1,
+            "type": 0
+          }
+        ]
+    },
+    {
+        "theme": "Тварини",
+        "tests": [
+          {
+            "question": "Як німецькою буде «кіт»?",
+            "answers": ["der Hund", "die Katze", "der Löwe", "die Maus"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає der Delfin?",
+            "answers": ["дельфін", "акула", "риба", "крокодил"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «слон»?",
+            "answers": ["der Leopard", "der Hamster", "der Elefant", "der Fuchs"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Що означає das Krokodil?",
+            "answers": ["крокодил", "лев", "жаба", "вовк"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «вовк»?",
+            "answers": ["der Frosch", "der Fuchs", "der Wolf", "der Hund"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Що означає die Maus?",
+            "answers": ["миша", "кіт", "пташка", "собака"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «лисиця»?",
+            "answers": ["der Fisch", "der Fuchs", "der Löwe", "das Lama"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає der Fisch?",
+            "answers": ["жаба", "дельфін", "риба", "крокодил"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «лев»?",
+            "answers": ["der Leopard", "der Löwe", "der Delfin", "der Hund"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає das Kaninchen?",
+            "answers": ["хом’як", "лисиця", "кролик", "миша"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «жаба»?",
+            "answers": ["der Frosch", "der Fisch", "der Papagei", "das Lama"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Що означає der Papagei?",
+            "answers": ["пінгвін", "папуга", "миша", "птах"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «хом’як»?",
+            "answers": ["der Hase", "der Hamster", "das Kaninchen", "der Delfin"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає das Lama?",
+            "answers": ["лама", "пантерка", "вовк", "осел"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «леопард»?",
+            "answers": ["der Löwe", "der Fuchs", "der Leopard", "der Hamster"],
+            "correct": 2,
+            "type": 0
+          }
+        ]
+    },
+    {
+        "theme": "Будинок",
+        "tests": [
+          {
+            "question": "Як німецькою буде «спальня»?",
+            "answers": ["das Wohnzimmer", "das Schlafzimmer", "das Badezimmer", "die Küche"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає die Küche?",
+            "answers": ["спальня", "кухня", "вітальня", "ванна кімната"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «вікно»?",
+            "answers": ["die Tür", "der Spiegel", "das Fenster", "der Teppich"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Що означає das Bett?",
+            "answers": ["ліжко", "диван", "стілець", "стіл"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «сад»?",
+            "answers": ["der Balkon", "der Garten", "die Treppe", "das Haus"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає die Treppe?",
+            "answers": ["двері", "шафа", "лампа", "сходи"],
+            "correct": 3,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «дзеркало»?",
+            "answers": ["der Spiegel", "der Stuhl", "das Fenster", "das Zimmer"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Що означає die Tür?",
+            "answers": ["ліжко", "двері", "килим", "піч"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «шафа»?",
+            "answers": ["der Schrank", "der Stuhl", "der Teppich", "das Zimmer"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Що означає der Teppich?",
+            "answers": ["ліхтар", "лампа", "дзеркало", "килим"],
+            "correct": 3,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «камін»?",
+            "answers": ["der Kühlschrank", "der Kamin", "der Ofen", "der Flur"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає der Kühlschrank?",
+            "answers": ["плита", "піч", "холодильник", "шафа"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «вітальня»?",
+            "answers": ["das Schlafzimmer", "das Wohnzimmer", "das Bad", "das Haus"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає der Ofen?",
+            "answers": ["камін", "холодильник", "дзеркало", "духовка"],
+            "correct": 3,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «меблі»?",
+            "answers": ["das Haus", "die Möbel", "die Wohnung", "der Tisch"],
+            "correct": 1,
+            "type": 0
+          }
+        ]
+    },
+    {
+        "theme": "Дієслова",
+        "tests": [
+          {
+            "question": "Як німецькою буде «бігти»?",
+            "answers": ["springen", "rennen", "fliegen", "schwimmen"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає springen?",
+            "answers": ["літати", "бігти", "грати", "стрибати"],
+            "correct": 3,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «співати»?",
+            "answers": ["stehen", "singen", "tanzen", "spielen"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Що означає spielen?",
+            "answers": ["грати", "сидіти", "співати", "повзати"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «танцювати»?",
+            "answers": ["tanzen", "klettern", "sitzen", "schwimmen"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Що означає schwimmen?",
+            "answers": ["повзати", "плавати", "літати", "сидіти"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «стояти»?",
+            "answers": ["stehen", "springen", "singen", "tanzen"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Що означає sitzen?",
+            "answers": ["стояти", "лежати", "сидіти", "грати"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Як німецькою буде «летіти»?",
+            "answers": ["schwimmen", "rennen", "fliegen", "klettern"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Що означає klettern?",
+            "answers": ["танцювати", "стрибати", "повзати", "плавати"],
+            "correct": 2,
+            "type": 0
+          }
+        ]
+    },
+    {
+        "theme": "Іменники та означені артиклі (Der, Die, Das)",
+        "tests": [
+          {
+            "question": "___ Haus ist groß und modern.",
+            "answers": ["das"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Lampe steht auf dem Tisch.",
+            "answers": ["die"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Teppich liegt auf dem Boden.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Küche ist sauber und hell.",
+            "answers": ["die"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Fenster ist offen.",
+            "answers": ["das"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Tisch steht in der Mitte des Zimmers.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Schlafzimmer ist gemütlich.",
+            "answers": ["das"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Tür ist geschlossen.",
+            "answers": ["die"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Spiegel hängt an der Wand.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Möbel sind modern.",
+            "answers": ["die"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Ingenieur plant neue Anlagen.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Lehrerin unterrichtet Deutsch.",
+            "answers": ["die"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Mädchen lacht laut.",
+            "answers": ["das"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Freundschaft zwischen den Ländern ist wichtig.",
+            "answers": ["die"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Apfel fällt vom Baum.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ April ist ein Frühlingsmonat.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Süden Spaniens ist sehr warm.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Zimmer im Hotel ist sauber.",
+            "answers": ["das"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Bett steht neben dem Fenster.",
+            "answers": ["das"],
+            "correct": 0,
+            "type": 1
+          },
+          {
+            "question": "___ Student liest viel Literatur.",
+            "answers": ["der"],
+            "correct": 0,
+            "type": 1
+          }
+        ]
+    },
+    {
+        "theme": "Множина іменників",
+        "tests": [
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\ndie Richtung – die Richtung____ (нап­рям – на­прями)",
+            "answers": ["-en", "-n", "-s"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\nder Artist – die Artist____ (ар­тист – ар­тисти)",
+            "answers": ["-en", "-e", "-s"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\ndie Mannschaft – die Mannschaft____ (ко­ман­да – ко­ман­ди)",
+            "answers": ["-en", "-e", "-nen"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\nder Friseur – die Friseur____ (пе­ру­кар – пе­ру­карі)",
+            "answers": ["-e", "-en", "-s"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\ndas Auto – die Auto____ (ав­то­мо­біль – ав­то­мо­бі­лі)",
+            "answers": ["-s", "-e", "-n"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\nder Tisch – die Tisch____ (стіл – сто­ли)",
+            "answers": ["-e", "-er", "-en"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\nder Stier – die Stier ____ (бик – бики)",
+            "answers": ["-e", "-en", "-s"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\ndie Straßenbahn – die Straßenbahn ____ (трамвай – трамваї)",
+            "answers": ["-e", "-en", "-s"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Оберіть правильне закінчення для утворення іменника в множині.\ndie Reklamation – die Reklamation ____ (скарга – скарги)",
+            "answers": ["-e", "-en", "-s"],
+            "correct": 1,
+            "type": 0
+          }
+        ]
+    },
+    {
+        "theme": "Неозначений артикль: ein / eine",
+        "tests": [
+          {
+            "question": "___ Mutter",
+            "answers": ["ein", "eine"],
+            "correct": 1,
+            "type": 2
+          },
+          {
+            "question": "___ Bruder",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Sofa",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Montag",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Katze",
+            "answers": ["ein", "eine"],
+            "correct": 1,
+            "type": 2
+          },
+          {
+            "question": "___ Film",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Lampe",
+            "answers": ["ein", "eine"],
+            "correct": 1,
+            "type": 2
+          },
+          {
+            "question": "___ Hund",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Blume",
+            "answers": ["ein", "eine"],
+            "correct": 1,
+            "type": 2
+          },
+          {
+            "question": "___ Tante",
+            "answers": ["ein", "eine"],
+            "correct": 1,
+            "type": 2
+          },
+          {
+            "question": "___ Apfel",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Lehrer",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Brief",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          },
+          {
+            "question": "___ Haus",
+            "answers": ["ein", "eine"],
+            "correct": 0,
+            "type": 2
+          }
+        ]
+    },
+    {
+        "theme": "Особові займенники er / sie / es",
+        "tests": [
+          {
+            "question": "Das ist ein Tisch. ___ ist groß.",
+            "answers": ["er", "sie", "es"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Das ist eine Blume. ___ ist schön.",
+            "answers": ["er", "sie", "es"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Das ist ein Fenster. ___ ist offen.",
+            "answers": ["er", "sie", "es"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Das ist ein Stuhl. ___ ist bequem.",
+            "answers": ["er", "sie", "es"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Das ist eine Lampe. ___ ist hell.",
+            "answers": ["er", "sie", "es"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Das ist ein Hund. ___ ist freundlich.",
+            "answers": ["er", "sie", "es"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Das ist ein Buch. ___ ist interessant.",
+            "answers": ["er", "sie", "es"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Das ist eine Katze. ___ ist klein.",
+            "answers": ["er", "sie", "es"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Das ist ein Ball. ___ ist neu.",
+            "answers": ["er", "sie", "es"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Das ist ein Auto. ___ ist schnell.",
+            "answers": ["er", "sie", "es"],
+            "correct": 2,
+            "type": 0
+          }
+        ]
+    },
+    {
+        "theme": "Відмінювання дієслів",
+        "tests": [
+          {
+            "question": "Ich ___ gern.",
+            "answers": ["tanzt", "tanze", "tanzen"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Du ___ sehr schnell.",
+            "answers": ["renne", "rennt", "rennst"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Er ___ laut.",
+            "answers": ["singst", "singt", "singen"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Wir ___ im Wasser.",
+            "answers": ["schwimmt", "schwimme", "schwimmen"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Ihr ___ auf dem Stuhl.",
+            "answers": ["sitzt", "sitzen", "sitze"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Sie (вона) ___ auf dem Baum. (klettern)",
+            "answers": ["kletterst", "klettert", "klettern"],
+            "correct": 1,
+            "type": 0
+          },
+          {
+            "question": "Ich ___ gern mit Freunden. (spielen)",
+            "answers": ["spiele", "spielt", "spielst"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Du ___ sehr hoch.",
+            "answers": ["springst", "springe", "springen"],
+            "correct": 0,
+            "type": 0
+          },
+          {
+            "question": "Es ___ in der Luft.",
+            "answers": ["fliege", "fliegst", "fliegt"],
+            "correct": 2,
+            "type": 0
+          },
+          {
+            "question": "Wir ___ im Park.",
+            "answers": ["stehe", "stehen", "steht"],
+            "correct": 1,
+            "type": 0
+          }
+        ]
+    }  
+]
+}
